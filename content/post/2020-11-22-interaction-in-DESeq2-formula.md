@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DESeq2 模型的交互项 "
-date:   202-11-21
+date:   2020-11-21
 categories: [memo, bioconductor]
 ---
 
