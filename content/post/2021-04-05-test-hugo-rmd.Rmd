@@ -1,0 +1,20 @@
+---
+title: 测试hugo_rmd的显示效果
+author: zerodel
+date: '2021-04-05'
+slug: test_hugo_rmd
+categories:
+  - memo
+tags: []
+---
+
+
+我们现在想知道, 现在的这个hugo的系统的显示如何. 
+
+
+```{r , echo=F, message=F, warning=F}
+library(tidyverse)
+
+ggplot(mtcars)+ geom_bin2d(aes(cyl, hp))
+```
+
